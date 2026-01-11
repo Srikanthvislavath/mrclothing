@@ -1,0 +1,31 @@
+MANUAL FILE COPY INSTRUCTIONS
+=============================
+
+Since terminal commands are having issues, please manually copy these files:
+
+From: C:\Users\ANUSHA\OneDrive\Desktop\MR_Clothing\mr_clothing_api\
+To: C:\xampp\htdocs\mr_clothing_api\
+
+Files to copy:
+1. api_register.php
+2. api_login.php
+3. api_logout.php
+4. api_me.php
+5. api_razorpay_order.php
+6. api_verify_payment.php
+7. api_create_order.php
+8. auth_init.php
+9. db.php
+10. schema.sql
+
+Steps:
+1. Open Windows File Explorer
+2. Navigate to C:\xampp\htdocs\
+3. If "mr_clothing_api" folder doesn't exist, create it
+4. Copy all files from C:\Users\ANUSHA\OneDrive\Desktop\MR_Clothing\mr_clothing_api\ into C:\xampp\htdocs\mr_clothing_api\
+5. Then test: http://localhost/mr_clothing_api/api_me.php
+
+Alternatively, use VS Code's built-in file operations:
+1. Open the mr_clothing_api folder in VS Code
+2. Right-click each file and "Reveal in Explorer"
+3. Copy them manually to C:\xampp\htdocs\mr_clothing_api\
